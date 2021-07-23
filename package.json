@@ -1,0 +1,62 @@
+{
+  "name": "@nicholas-mwaura/whived-rpc",
+  "description": "Whive Client Library to connect to Whive Core (whived) via RPC",
+  "version": "2.3.0",
+  "author": {
+    "name": "Stephen Pair",
+    "email": "stephen@bitpay.com"
+  },
+  "contributors": [
+    {
+      "name": "Jeff Garzik",
+      "email": "jgarzik@bitpay.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Alex Werner",
+      "email": "alex.werner@whive.org"
+    }
+  ],
+  "keywords": [
+    "whive",
+    "rpc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicholas-mwaura/whived-rpc"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test -R spec",
+    "coverage": "nyc npm run test"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "bluebird": "^3.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nyc": "15.1.0",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/nicholas-mwaura/whived-rpc/issues"
+  },
+  "homepage": "https://github.com/nicholas-mwaura/whived-rpc"
+}
